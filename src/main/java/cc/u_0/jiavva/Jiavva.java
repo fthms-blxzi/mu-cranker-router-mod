@@ -67,5 +67,14 @@ public final class Jiavva {
         }
         return name.trim();
     }
-}
 
+    /**
+     * Returns the input string as-is.
+     * 
+     * @param str input string
+     * @return the same string
+     */
+    public static String asIs(String str) {
+        return str;
+    }
+}
